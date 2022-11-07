@@ -2,7 +2,7 @@
 
 | 일반 배너 예시 | 하프 배너 예시
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner_half.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner_half.png"  width="60%" height="60%"/>
 
 ## 1. Banner 광고 추가 예제 (광고 뷰 추가)
 - 아래 코드는 Banner 광고를 RelativeLayout 에 추가한 예제 입니다.
@@ -216,7 +216,7 @@ public class Banner2Activity extends AppCompatActivity {
 
 | 전면 배너 예시 | 전면 팝업 배너 예시
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
 
 ## 3. Interstitial Banner (전면광고) 추가 예제
 

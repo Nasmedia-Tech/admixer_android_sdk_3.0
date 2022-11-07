@@ -2,7 +2,7 @@
 
 | 네이티브 예시 | 네이티브 설명 |
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/native.jpg"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/native_desc.png"  width="50%" height="50%"/>|
+|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/native.jpg"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/native_desc.png"  width="50%" height="50%"/>|
 
 ## 1. Native 광고 추가 예제
 - 아래 코드는 Native 광고를 RelativeLayout 에 추가한 예제 입니다.
