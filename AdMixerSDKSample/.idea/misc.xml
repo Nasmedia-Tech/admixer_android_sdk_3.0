@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-3/717f3766d464940abb875dc7f0ee2421/transformed/ads-base-3.12.9/res/layout/adfit_error_layout.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-3/717f3766d464940abb875dc7f0ee2421/transformed/ads-base-3.12.9/res/layout/adfit_inapp_browser.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-3/717f3766d464940abb875dc7f0ee2421/transformed/ads-base-3.12.9/res/layout/adfit_video_panel_view.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-3/717f3766d464940abb875dc7f0ee2421/transformed/ads-base-3.12.9/res/layout/adfit_web_layout_navigation.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-3/717f3766d464940abb875dc7f0ee2421/transformed/ads-base-3.12.9/res/layout/adfit_webview_layout.xml" value="0.2971014492753623" />
+        <entry key="..\:/gyyoo/Devloper/android/admixer_aos_sdk_guide/AdMixerSDKSample/app/src/main/res/layout/activity_banner.xml" value="0.32019927536231885" />
+        <entry key="..\:/gyyoo/Devloper/android/admixer_aos_sdk_guide/AdMixerSDKSample/app/src/main/res/layout/activity_banner2.xml" value="0.32019927536231885" />
+        <entry key="..\:/gyyoo/Devloper/android/admixer_aos_sdk_guide/AdMixerSDKSample/app/src/main/res/layout/activity_interstitial.xml" value="0.35778985507246375" />
+        <entry key="..\:/gyyoo/Devloper/android/admixer_aos_sdk_guide/AdMixerSDKSample/app/src/main/res/layout/activity_interstitialvideo.xml" value="0.35778985507246375" />
+        <entry key="..\:/gyyoo/Devloper/android/admixer_aos_sdk_guide/AdMixerSDKSample/app/src/main/res/layout/activity_native.xml" value="0.3759057971014493" />
+        <entry key="..\:/gyyoo/Devloper/android/admixer_aos_sdk_guide/AdMixerSDKSample/app/src/main/res/layout/activity_video.xml" value="0.3759057971014493" />
+        <entry key="app/src/main/res/layout/activity_banner.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/activity_banner2.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/activity_interstitial.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/activity_interstitialvideo.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/activity_native.xml" value="0.17654508611955422" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/item_320x480.xml" value="0.1770516717325228" />
+        <entry key="app/src/main/res/layout/item_menu.xml" value="0.2803442028985507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
