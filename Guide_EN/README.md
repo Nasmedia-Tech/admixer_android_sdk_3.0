@@ -12,7 +12,7 @@
 
 - Use the latest version of AdMixer SDK.
 - Use the latest version of Android Studio.
-- AdMixer SDK works on 8.0 (Oreo, API Level 26) and later devices..
+- AdMixer SDK works on 5.0 (LOLLIPOP, API Level 21) and later devices..
 
 ## Project Settings
 
@@ -50,7 +50,7 @@
 ```java
     dependencies {
         ...
-        implementation 'io.github.nasmedia-tech:admixersdk:3.0.3'
+        implementation 'io.github.nasmedia-tech:admixersdk:3.0.4'
         ...
     }
 ```

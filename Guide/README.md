@@ -12,7 +12,7 @@
 
 - 최신 버전의 AdMixerSDK 사용을 권장.
 - 최신 버전의 Android Studio 권장.
-- AdMixer SDK 는 8.0 (Oreo, API Level 26)이상 기기에서 동작.
+- AdMixer SDK 는 5.0 (LOLLIPOP, API Level 21)이상 기기에서 동작.
 
 ## 프로젝트 설정 [공통]
 
@@ -50,7 +50,7 @@
 ```java
     dependencies {
         ...
-        implementation 'io.github.nasmedia-tech:admixersdk:3.0.3'
+        implementation 'io.github.nasmedia-tech:admixersdk:3.0.4'
         ...
     }
 ```
