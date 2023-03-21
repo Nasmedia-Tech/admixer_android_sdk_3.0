@@ -2,7 +2,7 @@
 
 | Banner sample | half banner sample
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner_half.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner_half.png"  width="60%" height="60%"/>
 
 ## 1. Banner ad example (Adding Ad view)   
 - The code below is an example of adding Banner ads to RelativeLayout.   
@@ -48,7 +48,7 @@ public class BannerActivity extends AppCompatActivity {
         banner = new AdView(this);
         banner.setLayoutParams(params);
         // Please note that hardware Accelerated is set to true for Banner's parent activity to provide a smooth ad serving.
-        banner.setAdInfo(adInfo, this);
+        banner.setAdInfo(adInfo);
         banner.setAlwaysShowAdView(false); // Set whether to occupy area even before ad loading (false – default)
         banner.setAdViewListener(new AdListener() {
             @Override
@@ -158,7 +158,7 @@ public class Banner2Activity extends AppCompatActivity {
 
         banner = findViewById(R.id.banner2);
         // Please note that hardware Accelerated is set to true for Banner's parent activity to provide a smooth ad serving..
-        banner.setAdInfo(adInfo, this);
+        banner.setAdInfo(adInfo);
         banner.setAlwaysShowAdView(false);  // Set whether to occupy area even before ad loading (false – default)
         banner.setAdViewListener(new AdListener() {
             @Override
@@ -216,7 +216,7 @@ public class Banner2Activity extends AppCompatActivity {
 
 | Interstitial banner sample | Interstitial PopUP banner sample
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
 
 ## 3. Interstitial Banner ad example
 
@@ -302,7 +302,7 @@ public class InterstitialActivity extends AppCompatActivity {
 
         interstitialAd = new InterstitialAd(this);
         // Please note that hardware Accelerated is set to true for Banner's parent activity to provide a smooth ad serving  
-        interstitialAd.setAdInfo(adInfo, this);
+        interstitialAd.setAdInfo(adInfo);
         interstitialAd.setAdListener(new AdListener() {
             @Override
             public void onReceivedAd(Object o) {

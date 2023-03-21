@@ -2,7 +2,7 @@
 
 | 일반 배너 예시 | 하프 배너 예시
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner_half.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner_half.png"  width="60%" height="60%"/>
 
 ## 1. Banner 광고 추가 예제 (광고 뷰 추가)
 - 아래 코드는 Banner 광고를 RelativeLayout 에 추가한 예제 입니다.
@@ -48,7 +48,7 @@ public class BannerActivity extends AppCompatActivity {
         banner = new AdView(this);
         banner.setLayoutParams(params);
         // 이 때 설정하신 Banner 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        banner.setAdInfo(adInfo, this);
+        banner.setAdInfo(adInfo);
         banner.setAlwaysShowAdView(false); // 광고 로딩 전에도 영역을 차지할 것인지 설정(false – 기본값)
         banner.setAdViewListener(new AdListener() {
             @Override
@@ -158,7 +158,7 @@ public class Banner2Activity extends AppCompatActivity {
 
         banner = findViewById(R.id.banner2);
         // 이 때 설정하신 Banner 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        banner.setAdInfo(adInfo, this);
+        banner.setAdInfo(adInfo);
         banner.setAlwaysShowAdView(false);   // 광고 로딩 전에도 영역을 차지할 것인지 설정(false – 기본값)
         banner.setAdViewListener(new AdListener() {
             @Override
@@ -216,7 +216,7 @@ public class Banner2Activity extends AppCompatActivity {
 
 | 전면 배너 예시 | 전면 팝업 배너 예시
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
 
 ## 3. Interstitial Banner (전면광고) 추가 예제
 
@@ -277,6 +277,7 @@ public class InterstitialActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.loading_bar);
         btnInterstitialShow = findViewById(R.id.btn_interstitial_show);
+		// 전면광고 초기화는 반드시 Activity 또는 Activity Context로 선언 해 주세요
         interstitialAd = new InterstitialAd(this);
 
         // [아래 설정은 AdInfo.InterstitialAdType.Popup 을 사용 했을 때 원하시는 조건만 추가하시면 됩니다.]
@@ -302,7 +303,7 @@ public class InterstitialActivity extends AppCompatActivity {
 
         interstitialAd = new InterstitialAd(this);
         // 이 때 설정하신 Interstitial 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        interstitialAd.setAdInfo(adInfo, this);
+        interstitialAd.setAdInfo(adInfo);
         interstitialAd.setAdListener(new AdListener() {
             @Override
             public void onReceivedAd(Object o) {

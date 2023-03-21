@@ -44,7 +44,7 @@ class InterstitialActivity : AppCompatActivity() {
 
         interstitialAd = InterstitialAd(this@InterstitialActivity)
         // 이 때 설정하신 Interstitial 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        interstitialAd?.setAdInfo(adInfo, this@InterstitialActivity)
+        interstitialAd?.setAdInfo(adInfo)
         interstitialAd?.setAdListener(object : AdListener {
             override fun onReceivedAd(p0: Any?) {
                 // 광고 수신 성공

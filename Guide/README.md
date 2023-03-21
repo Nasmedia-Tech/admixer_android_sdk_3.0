@@ -50,7 +50,7 @@
 ```java
     dependencies {
         ...
-        implementation 'io.github.nasmedia-tech:admixersdk:3.0.4'
+        implementation 'io.github.nasmedia-tech:admixersdk:3.0.5'
         ...
     }
 ```

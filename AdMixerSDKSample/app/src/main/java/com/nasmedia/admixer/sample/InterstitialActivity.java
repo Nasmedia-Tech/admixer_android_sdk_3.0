@@ -53,7 +53,7 @@ public class InterstitialActivity extends AppCompatActivity {
 
         interstitialAd = new InterstitialAd(this);
         // 이 때 설정하신 Interstitial 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        interstitialAd.setAdInfo(adInfo, this);
+        interstitialAd.setAdInfo(adInfo);
         interstitialAd.setAdListener(new AdListener() {
             @Override
             public void onReceivedAd(Object o) {

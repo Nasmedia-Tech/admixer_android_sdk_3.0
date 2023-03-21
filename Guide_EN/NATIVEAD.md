@@ -2,7 +2,7 @@
 
 | Native sample | Native DESC |
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/native.jpg"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/native_desc.png"  width="50%" height="50%"/>|
+|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/native.jpg"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/native_desc.png"  width="50%" height="50%"/>|
 
 ## 1. Native ad example
 - The code below is an example of adding Native ads to RelativeLayout.   
@@ -125,7 +125,7 @@ public class NativeActivity extends AppCompatActivity {
 
         nativeAdView = new NativeAdView(this);
         // Please note that hardware Accelerated is set to true for Banner's parent activity to provide a smooth ad serving.
-        nativeAdView.setAdInfo(adInfo, this);
+        nativeAdView.setAdInfo(adInfo);
         nativeAdView.setViewBinder(viewBinder); // Native Ad Layout Required Delivery
         nativeAdView.setAdViewListener(new AdListener() {
             @Override

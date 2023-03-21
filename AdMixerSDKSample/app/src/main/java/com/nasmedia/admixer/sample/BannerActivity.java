@@ -34,7 +34,7 @@ public class BannerActivity extends AppCompatActivity {
         banner = new AdView(this);
         banner.setLayoutParams(params);
         // 이 때 설정하신 Banner 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        banner.setAdInfo(adInfo, this);
+        banner.setAdInfo(adInfo);
         banner.setAlwaysShowAdView(false);   // 광고 로딩 전에도 영역을 차지할 것인지 설정(false – 기본값)
         banner.setAdViewListener(new AdListener() {
             @Override

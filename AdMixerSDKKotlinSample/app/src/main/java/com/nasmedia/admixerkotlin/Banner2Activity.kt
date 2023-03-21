@@ -25,7 +25,7 @@ class Banner2Activity : AppCompatActivity() {
 
         banner = findViewById(R.id.banner2)
         // 이 때 설정하신 Banner 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        banner?.setAdInfo(adInfo, this@Banner2Activity)
+        banner?.setAdInfo(adInfo)
         banner?.setAlwaysShowAdView(true) // 광고 로딩 전에도 영역을 차지할 것인지 설정(false – 기본값)
         banner?.setAdViewListener(object : AdListener {
             override fun onReceivedAd(p0: Any?) {

@@ -39,7 +39,7 @@ class NativeActivity : AppCompatActivity() {
 
         nativeAdView = NativeAdView(this@NativeActivity)
         // 이 때 설정하신 Native 의 부모 activity 는 원활한 광고 제공을 위해 hardwareAccelerated 가 true 설정되오니 참고 부탁드립니다.
-        nativeAdView?.setAdInfo(adInfo, this@NativeActivity)
+        nativeAdView?.setAdInfo(adInfo)
         nativeAdView?.setViewBinder(viewBinder) // 네이티브 광고 레이아웃 필수 전달
         nativeAdView?.setAdViewListener(object : AdListener {
             override fun onReceivedAd(p0: Any?) {
