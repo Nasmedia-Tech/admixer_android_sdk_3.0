@@ -2,7 +2,7 @@
 
 | Banner sample | half banner sample
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/banner_half.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner.png"  width="60%" height="60%"/> |<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/banner_half.png"  width="60%" height="60%"/>
 
 ## 1. Banner ad example (Adding Ad view)   
 - The code below is an example of adding Banner ads to RelativeLayout.   
