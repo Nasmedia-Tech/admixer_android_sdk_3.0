@@ -216,7 +216,7 @@ public class Banner2Activity extends AppCompatActivity {
 
 | 전면 배너 예시 | 전면 팝업 배너 예시
 |:---:|:---:|
-|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_aos_sdk_guide/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
+|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_basic.png"  width="60%" height="60%"/>|<img src="https://github.com/Nasmedia-Tech/admixer_android_sdk_3.0/blob/main/images/interstitial_popup.png"  width="60%" height="60%"/>
 
 ## 3. Interstitial Banner (전면광고) 추가 예제
 
