@@ -112,7 +112,7 @@
 
 * [배너 광고 시작하기](BANNERAD.md)
 * [네이티브 광고 시작하기](NATIVEAD.md)
-* [동영상 광고 시작하기](VIDEOAD.md)
+* [동영상 광고 시작하기](VIDEO.md)
 * [리워드 동영상 광고 시작하기](REWARD.md)
 
 ## Step 5. 자주하는 질문 (Q&A)
