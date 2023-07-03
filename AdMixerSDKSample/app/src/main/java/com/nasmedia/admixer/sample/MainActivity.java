@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         menuAdapter.addItem("일반배너2");
         menuAdapter.addItem("전면배너");
         menuAdapter.addItem("네이티브");
+        menuAdapter.addItem("동영상");
+        menuAdapter.addItem("전면동영상");
+        menuAdapter.addItem("전면리워드동영상");
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL, false));
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
@@ -97,6 +100,18 @@ public class MainActivity extends AppCompatActivity {
                             }
                             case 3: {
                                 context.startActivity(new Intent(context, NativeActivity.class));
+                                break;
+                            }
+                            case 4: {
+                                context.startActivity(new Intent(context, VideoActivity.class));
+                                break;
+                            }
+                            case 5: {
+                                context.startActivity(new Intent(context, InterstitialVideoActivity.class));
+                                break;
+                            }
+                            case 6: {
+                                context.startActivity(new Intent(context, RewardInterstitialVideoActivity.class));
                                 break;
                             }
                         }

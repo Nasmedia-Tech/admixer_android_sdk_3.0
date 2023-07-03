@@ -50,7 +50,7 @@
 ```java
     dependencies {
         ...
-        implementation 'io.github.nasmedia-tech:admixersdk:3.0.6'
+        implementation 'io.github.nasmedia-tech:admixersdk:3.0.7'
         ...
     }
 ```
@@ -112,6 +112,8 @@
 
 * [배너 광고 시작하기](BANNERAD.md)
 * [네이티브 광고 시작하기](NATIVEAD.md)
+* [동영상 광고 시작하기](VIDEOAD.md)
+* [리워드 동영상 광고 시작하기](REWARD.md)
 
 ## Step 5. 자주하는 질문 (Q&A)
 * V3 부터는 AdMixer SDK 에서 더 이상 미디에이션 서비스를 제공하지 않습니다.

@@ -12,9 +12,12 @@ public class Application extends android.app.Application {
     public static String ADUNIT_ID_BANNER = "AdMixer 플랫폼에서 발급받은 배너 ADUNIT_ID";
     public static String ADUNIT_ID_INTERSTITIAL_BANNER = "AdMixer 플랫폼에서 발급받은 전면 배너 ADUNIT_ID";
     public static String ADUNIT_ID_NATIVE = "AdMixer 플랫폼에서 발급받은 네이티브 ADUNIT_ID";
+    public static String ADUNIT_ID_VIDEO = "AdMixer 플랫폼에서 발급받은 비디오 ADUNIT_ID";
+    public static String ADUNIT_ID_INTERSTITIAL_VIDEO = "AdMixer 플랫폼에서 발급받은 전면비디오 ADUNIT_ID";
+    public static String ADUNIT_ID_REWARD_INTERSTITIAL_VIDEO = "AdMixer 플랫폼에서 발급받은 리워드전면 ADUNIT_ID";
 
     public static ArrayList<String> adUnits = new ArrayList<>(
-            Arrays.asList(ADUNIT_ID_BANNER, ADUNIT_ID_INTERSTITIAL_BANNER, ADUNIT_ID_NATIVE)
+            Arrays.asList(ADUNIT_ID_BANNER, ADUNIT_ID_INTERSTITIAL_BANNER, ADUNIT_ID_NATIVE, ADUNIT_ID_VIDEO, ADUNIT_ID_INTERSTITIAL_VIDEO, ADUNIT_ID_REWARD_INTERSTITIAL_VIDEO)
     );
 
     @Override

@@ -28,6 +28,9 @@ class MainActivity : AppCompatActivity() {
         menuAdapter.addItem("일반배너2")
         menuAdapter.addItem("전면배너")
         menuAdapter.addItem("네이티브")
+        menuAdapter.addItem("동영상")
+        menuAdapter.addItem("전면동영상")
+        menuAdapter.addItem("전면리워드동영상")
 
         recyclerView.layoutManager =
             LinearLayoutManager(this@MainActivity, RecyclerView.VERTICAL, false)
@@ -79,6 +82,9 @@ class MainActivity : AppCompatActivity() {
                     1 -> context.startActivity(Intent(context, Banner2Activity::class.java))
                     2 -> context.startActivity(Intent(context, InterstitialActivity::class.java))
                     3 -> context.startActivity(Intent(context, NativeActivity::class.java))
+                    4 -> context.startActivity(Intent(context, VideoActivity::class.java))
+                    5 -> context.startActivity(Intent(context, InterstitialVideoActivity::class.java))
+                    6 -> context.startActivity(Intent(context, RewardInterstitialVideoActivity::class.java))
                 }
             }
         }

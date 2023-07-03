@@ -3,7 +3,6 @@ package com.nasmedia.admixerkotlin
 import android.app.Application
 import com.nasmedia.admixer.common.AdMixer
 import com.nasmedia.admixer.common.AdMixerLog
-import java.util.ArrayList
 
 open class Application : Application() {
     companion object {
@@ -11,7 +10,18 @@ open class Application : Application() {
         const val ADUNIT_ID_BANNER = "AdMixer 플랫폼에서 발급받은 배너 ADUNIT_ID"
         const val ADUNIT_ID_INTERSTITIAL_BANNER = "AdMixer 플랫폼에서 발급받은 전면 배너 ADUNIT_ID"
         const val ADUNIT_ID_NATIVE = "AdMixer 플랫폼에서 발급받은 네이티브 ADUNIT_ID"
-        val adUnits = arrayOf(ADUNIT_ID_BANNER, ADUNIT_ID_INTERSTITIAL_BANNER, ADUNIT_ID_NATIVE).toList()
+        const val ADUNIT_ID_VIDEO = "AdMixer 플랫폼에서 발급받은 비디오 ADUNIT_ID"
+        const val ADUNIT_ID_INTERSTITIAL_VIDEO = "AdMixer 플랫폼에서 발급받은 전면비디오 ADUNIT_ID"
+        const val ADUNIT_ID_REWARD_INTERSTITIAL_VIDEO = "AdMixer 플랫폼에서 발급받은 리워드전면 ADUNIT_ID"
+
+        val adUnits = arrayOf(
+            ADUNIT_ID_BANNER,
+            ADUNIT_ID_INTERSTITIAL_BANNER,
+            ADUNIT_ID_NATIVE,
+            ADUNIT_ID_VIDEO,
+            ADUNIT_ID_INTERSTITIAL_VIDEO,
+            ADUNIT_ID_REWARD_INTERSTITIAL_VIDEO
+        ).toList()
     }
 
     override fun onCreate() {
