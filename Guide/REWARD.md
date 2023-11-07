@@ -162,7 +162,6 @@ public class RewardInterstitialVideoActivity extends AppCompatActivity {
                 ...
                 .setCustomParams(params) // Rewarded Callbacks CustomData는 String Map형태로 추가 
                 .build();
-		
 ```
 
 ###### SDK 내 CustomData 추가에서 세팅한 Custom파라미터가 콜백 URL에 포함되어 전송됩니다. (아래 예제 URL 참조)

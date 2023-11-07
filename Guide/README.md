@@ -50,7 +50,7 @@
 ```java
     dependencies {
         ...
-        implementation 'io.github.nasmedia-tech:admixersdk:3.0.9'
+        implementation 'io.github.nasmedia-tech:admixersdk:3.0.10'
         ...
     }
 ```
@@ -102,7 +102,6 @@
 
 # AdMixer Setting
 -keep class com.nasmedia.admixer.** { *; }
-
 ```
 
 ## Step 4. 광고 추가하기
