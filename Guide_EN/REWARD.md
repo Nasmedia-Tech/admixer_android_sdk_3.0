@@ -21,11 +21,9 @@
   (3) rewardInterstitialVideoAd.showRewardVideoAd(); // Reward Interstitial Video show
 
 
-- precautions
-
-- If too much time passes without exposure after successful ad loading, the ad may not be displayed properly when showRewardVideoAd() is called
-  
-  -After a certain amount of time after calling loadRewardVideoAd(), the ad may not be treated as an effective exposure.
+ - precautions
+    - If too much time passes without exposure after successful ad loading, the ad may not be displayed properly when showRewardVideoAd() is called
+    - After a certain amount of time after calling loadRewardVideoAd(), the ad may not be treated as an effective exposure.
 
 - Refer to the code and sample project below to add ads in any way you like.
 ```java
