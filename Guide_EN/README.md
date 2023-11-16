@@ -111,6 +111,8 @@ Please refer to the following documentation, according to the AdFormat set by [A
 
 * [Banner](BANNERAD.md)
 * [Native](NATIVEAD.md)
+* [Video](VIDEO.md)
+* [Reward Interstitial Video](REWARD.md)
 
 ## Step 5. Q&A
 * From Version 3, AdMixer SDK no longer provides mediation services.
